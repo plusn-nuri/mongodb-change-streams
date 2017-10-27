@@ -1,0 +1,14 @@
+{
+  "name": "change-streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "start mongod.exe --dbpath C:\\temp\\fresh  --replSet r1 --enableMajorityReadConcern"
+  },
+  "author": "plusn-nuri",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "mongodb/node-mongodb-native#3.0.0"
+  }
+}
